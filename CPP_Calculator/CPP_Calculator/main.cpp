@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int calculator(int a, int b, char sign)
+int Calculator(int a, int b, char sign)
 {
 	if (sign == '+')
 		return a + b;
@@ -24,6 +24,6 @@ void main()
 		char sign;
 		cin >> a >> b >> sign;
 
-		cout << "결과 : " << calculator(a, b, sign) << endl;
+		cout << "결과 : " << Calculator(a, b, sign) << endl;
 	}
 }
